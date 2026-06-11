@@ -1,5 +1,9 @@
-let h1 = document.querySelector("h1")
+let h1 = document.querySelector("h1");
 
-window.addEventListener("keydown",function(e){
-    h1.textContent = e.key
-})
+window.addEventListener("keydown", function (e) {
+  if (e.key === " ") {
+    h1.textContent = "SPACE";
+  } else {
+    h1.textContent = e.key;
+  }
+});

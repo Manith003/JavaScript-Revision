@@ -1,0 +1,16 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.design {
+  width: 30px;
+  height: 30px;
+  border: 2px solid red;
+  /* background: transparent; */
+  background-color: red;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+}
