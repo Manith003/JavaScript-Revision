@@ -8,8 +8,8 @@
 //   }
 // });
 
-// let inp = document.querySelector(".input");
-// let maininp = document.querySelector("input");
+// let inp = document.querySelector(".input"); // local file upload
+// let maininp = document.querySelector("input"); // real file upload
 // let h1 = document.querySelector("h1");
 
 // inp.addEventListener("click", () => {

@@ -79,6 +79,26 @@
 //   console.log(val[0] + ": " + val[1]);
 // });
 
+// const orginal = {
+//   name: "manith",
+//   address: {
+//     city: "chennai",
+//   },
+// };
+
+// console.log(orginal);
+
+// const copyobj = JSON.parse(JSON.stringify(orginal));
+
+// console.log(copyobj);
+
+
+// let obj = {
+//  "first-name" : "manith",
+//  gender: "male"
+// }
+
+
 const orginal = {
   name: "manith",
   address: {
@@ -86,8 +106,8 @@ const orginal = {
   },
 };
 
-console.log(orginal);
+const obj2 = structuredClone(orginal)
 
-const copyobj = JSON.parse(JSON.stringify(orginal));
 
-console.log(copyobj);
+
+
