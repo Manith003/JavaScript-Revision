@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Theme */
+.light {
+    background: #ffffff;
+    color: #000000;
+}
+
+/* Dark Theme */
+.dark {
+    background: #222;
+    color: #ffffff;
+}
+
+button {
+    padding: 12px 25px;
+    cursor: pointer;
+}
